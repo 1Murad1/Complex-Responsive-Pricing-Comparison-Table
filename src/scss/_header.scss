@@ -1,0 +1,15 @@
+@import 'variable';
+
+#header {
+	.container {
+		padding: 96px 24px 0;
+	}
+}
+
+@media screen and (max-width: $startMobile) {
+	#header {
+		.container {
+			padding: 60px 16px 0;
+		}
+	}
+}

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+	@@include('html/head.html', { 'title': 'Pricing Comparison Table' })
+	<body>
+		@@include('html/header.html', {})
+		<main id="main">
+			<section class="section-table">
+				<div class="container">
+					<div class="item-column left-column">
+						<div class="item-column__top">
+							<div class="wrapper-toggle">
+								<p class="monthly">Monthly</p>
+								<div class="switch-toggle">
+									<input type="checkbox" id="switch" />
+									<label for="switch">Toggle</label>
+								</div>
+								<p class="yearly">Yearly</p>
+								<p class="sale">(-20%)</p>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p>Platform</p>
+						</div>
+						<div class="item-column__row">
+							<p>Account Access</p>
+						</div>
+						<div class="item-column__row">
+							<p>Custom Domains</p>
+						</div>
+						<div class="item-column__row">
+							<p>Receipts Forward</p>
+						</div>
+						<div class="item-column__row">
+							<p>Supplier Management</p>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p>Features</p>
+						</div>
+						<div class="item-column__row">
+							<p>Generate Public URLs</p>
+						</div>
+						<div class="item-column__row">
+							<p>API Integrations</p>
+						</div>
+						<div class="item-column__row">
+							<p>Extra Add-ons</p>
+						</div>
+						<div class="item-column__row">
+							<p>Admin Roles</p>
+						</div>
+						<div class="item-column__row">
+							<p>Enterprise Add-ons</p>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p>Support</p>
+						</div>
+						<div class="item-column__bottom">
+							<p>Custom Connection</p>
+						</div>
+					</div>
+					<div class="item-column basic">
+						<div class="item-column__top">
+							<p class="package-name">Basic</p>
+							<div class="price-block">
+								<span class="currency">$</span>
+								<span class="price basic-price">35</span>
+								<span class="month">/mo</span>
+							</div>
+							<p class="description">Unlimited placeholder texts.</p>
+							<div class="button-wrapper">
+								@@include('html/uiComponents/signUpButton.html', {})
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Platform</p>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>400 <span class="hidden">Account Access</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>4 <span class="hidden">Custom Domains</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span
+									>Unlimited <span class="hidden">Receipts Forward</span></span
+								>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>1 <span class="hidden">Supplier Management</span></span>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Features</p>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Generate Public URLs</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">API Integrations</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Extra Add-ons</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									xmlns="http://www.w3.org/2000/svg"
+									class="not-have-ico"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+										fill="#000"
+									></path>
+								</svg>
+								<span><span class="hidden">Admin Roles</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									xmlns="http://www.w3.org/2000/svg"
+									class="not-have-ico"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+										fill="#000"
+									></path>
+								</svg>
+								<span><span class="hidden">Enterprise Add-ons</span></span>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Support</p>
+						</div>
+						<div class="item-column__bottom">
+							<div class="item-column__row-value">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									xmlns="http://www.w3.org/2000/svg"
+									class="not-have-ico"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+										fill="#000"
+									></path>
+								</svg>
+								<span><span class="hidden">Custom Connection</span></span>
+							</div>
+						</div>
+					</div>
+					<div class="item-column standard">
+						<div class="label-popular">
+							<p>Most Popular</p>
+						</div>
+						<div class="item-column__top">
+							<p class="package-name">Standard</p>
+							<div class="price-block">
+								<span class="currency">$</span>
+								<span class="price standard-price">54</span>
+								<span class="month">/mo</span>
+							</div>
+							<p class="description">Unlimited placeholder texts.</p>
+							<div class="button-wrapper">
+								@@include('html/uiComponents/signUpButton.html', {})
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Platform</p>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>800 <span class="hidden">Account Access</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>10 <span class="hidden">Custom Domains</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span
+									>Unlimited <span class="hidden">Receipts Forward</span></span
+								>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>10 <span class="hidden">Supplier Management</span></span>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Features</p>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Generate Public URLs</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">API Integrations</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Extra Add-ons</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									xmlns="http://www.w3.org/2000/svg"
+									class="not-have-ico"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+										fill="#000"
+									></path>
+								</svg>
+								<span><span class="hidden">Admin Roles</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									xmlns="http://www.w3.org/2000/svg"
+									class="not-have-ico"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+										fill="#000"
+									></path>
+								</svg>
+								<span><span class="hidden">Enterprise Add-ons</span></span>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Support</p>
+						</div>
+						<div class="item-column__bottom">
+							<div class="item-column__row-value">
+								<svg
+									width="16"
+									height="16"
+									viewBox="0 0 16 16"
+									xmlns="http://www.w3.org/2000/svg"
+									class="not-have-ico"
+								>
+									<path
+										fill-rule="evenodd"
+										clip-rule="evenodd"
+										d="M4.11 2.697L2.698 4.11 6.586 8l-3.89 3.89 1.415 1.413L8 9.414l3.89 3.89 1.413-1.415L9.414 8l3.89-3.89-1.415-1.413L8 6.586l-3.89-3.89z"
+										fill="#000"
+									></path>
+								</svg>
+								<span><span class="hidden">Custom Connection</span></span>
+							</div>
+						</div>
+					</div>
+					<div class="item-column premium">
+						<div class="item-column__top">
+							<p class="package-name">Premium</p>
+							<div class="price-block">
+								<span class="currency">$</span>
+								<span class="price premium-price">85</span>
+								<span class="month">/mo</span>
+							</div>
+							<p class="description">Unlimited placeholder texts.</p>
+							<div class="button-wrapper">
+								@@include('html/uiComponents/signUpButton.html', {})
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Platform</p>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span>Unlimited<span class="hidden">Account Access</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span
+									>Unlimited <span class="hidden">Custom Domains</span></span
+								>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span
+									>Unlimited <span class="hidden">Receipts Forward</span></span
+								>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span
+									>Unlimited
+									<span class="hidden">Supplier Management</span></span
+								>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Features</p>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Generate Public URLs</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">API Integrations</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Extra Add-ons</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Admin Roles</span></span>
+							</div>
+						</div>
+						<div class="item-column__row">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Enterprise Add-ons</span></span>
+							</div>
+						</div>
+						<div class="item-column__row item-column__row-head">
+							<p class="opacity">Support</p>
+						</div>
+						<div class="item-column__bottom">
+							<div class="item-column__row-value">
+								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="9">
+									<path
+										d="M10.28.28 3.989 6.575 1.695 4.28A1 1 0 0 0 .28 5.695l3 3a1 1 0 0 0 1.414 0l7-7A1 1 0 0 0 10.28.28Z"
+									></path>
+								</svg>
+								<span><span class="hidden">Custom Connection</span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/footer.html', {})
+		<script src="js/app.min.js"></script>
+	</body>
+</html>

@@ -1,0 +1,109 @@
+//fonts
+$interRegular: InterRegular, sans-serif;
+$interMedium: InterMedium, sans-serif;
+$interSemiBold: InterSemiBold, sans-serif;
+$interBold: InterBold, sans-serif;
+
+//mixins text
+@mixin regularGrayText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $gray;
+	font-family: $interRegular;
+}
+
+@mixin mediumDarkBlueText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $darkBlue;
+	font-family: $interMedium;
+}
+
+@mixin regularGreenText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $green;
+	font-family: $interRegular;
+}
+
+@mixin regularSpaceGrayText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $spaceGray;
+	font-family: $interRegular;
+}
+
+@mixin regularLightGray {
+	font-size: 14px;
+	line-height: 20px;
+	color: $lightGray;
+	font-family: $interRegular;
+}
+
+@mixin mediumSpaceGrayText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $spaceGray;
+	font-family: $interMedium;
+}
+
+@mixin semiBoldDarkBlueText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $darkBlue;
+	font-family: $interSemiBold;
+}
+
+@mixin boldDarkBlueText30 {
+	font-size: 30px;
+	line-height: 36px;
+	color: $darkBlue;
+	font-family: $interBold;
+}
+
+@mixin mediumCurrencyDarkBluet20 {
+	font-size: 20px;
+	line-height: 24px;
+	color: $darkBlue;
+	font-family: $interMedium;
+}
+
+@mixin mediumButtonSignUpText14 {
+	font-size: 14px;
+	line-height: 20px;
+	color: $white;
+	font-family: $interMedium;
+	cursor: pointer;
+	padding: 6px 10px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 1px 2px 0 rgba(30, 27, 75, 0.1);
+	background-color: $lightBlue;
+	transition: 0.5s all;
+	border-radius: 8px;
+	&:hover {
+		background-color: $blue;
+		span {
+			transform: translate(5px, 0);
+			-webkit-transform: translate(5px, 0); /** Chrome & Safari **/
+			-o-transform: translate(5px, 0); /** Opera **/
+			-moz-transform: translate(5px, 0); /** Firefox **/
+		}
+	}
+}
+
+@mixin semiBoldWhiteText12 {
+	font-size: 12px;
+	line-height: 16px;
+	color: $white;
+	font-family: $interSemiBold;
+}
+
+@mixin textH1 {
+	font-size: 40px;
+	line-height: 44px;
+	font-family: $interBold;
+	color: $darkBlue;
+}
